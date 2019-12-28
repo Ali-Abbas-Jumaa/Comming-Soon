@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+html, body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: url(http://demo.themeum.com/wordpress/moview/wp-content/themes/moview/images/trailers-and-video-bg.jpg) center center no-repeat ;
+    background: url(background.jpg) center center no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+    line-height: 2.8;
+}
+.comming-soon{
+    
+}
+.main-image{
+}
+.grid{
+    display: grid;
+}
+.sub-page-header{
+    margin-top: 60px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.soon-page-header{ 
+    font-size: 72px;
+    letter-spacing: 5px;
+    margin-bottom: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+}
+.box{
+    height: 180px;
+    width: 200px;
+    border-radius: 5px;
+    border: 16px white solid;
+    margin: 12px;
+    position: relative;
+    color: white;
+    font-weight: 700;
+}
+.box:before{
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 70px;
+    border-right: 16px white solid;
+    border-top: 16px white solid;
+    top: -76px;
+    left: 50px;
+    transform: rotate(135deg);
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-one{
+    background: #24aeef;
+}
+.box-two{
+    background: #ef4036;
+}
+.box-three{
+    background: #f7941d;
+}.box-four{
+    background: #1175bc;
+}
+footer{
+    color: #999999;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 35px 0;
+}
