@@ -6,7 +6,6 @@ html, body{
     font-family: 'Montserrat', sans-serif;
 }
 body{
-    background: url(http://demo.themeum.com/wordpress/moview/wp-content/themes/moview/images/trailers-and-video-bg.jpg) center center no-repeat ;
     background: url(background.jpg) center center no-repeat ;
     background-size: cover;
     background-attachment: fixed;

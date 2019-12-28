@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -15,10 +14,10 @@
     />
   </head>
   <body>
-    <div class="container" id="app">
+    <div class="container" >
       <div class="row justify-content-center mt-5 ">
         <img
-          src="http://iraqicinema.net/wp-content/uploads/2017/07/Iraqi-Logonewwwwwwwwwwwwwwwwwwww.png"
+          src="Iraqi-Cinema-Logo.png"
           alt=""
         />
       </div>
@@ -59,20 +58,11 @@
         </div>
       </div>
       <footer class=" row justify-content-center">
-        <p>Copyright 2017 © GoneMobileApps. All Rights Reserved</p>
+        <p>Copyright 2017 © Some Copyright. All Rights Reserved</p>
       </footer>
     </div>
 
     <script>
-      const vue = new Vue({
-        el: "#app",
-        data: {
-          days: "",
-          hour: "",
-          minuts: "",
-          seconds: ""
-        }
-      });
 
       var countDownDate = new Date("Jan 5, 2031 15:37:25").getTime();
       var x = setInterval(function() {
