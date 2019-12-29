@@ -15,6 +15,9 @@ body{
 .comming-soon{
     
 }
+#main-logo{
+    max-width: 100%;
+}
 .main-image{
 }
 .grid{
@@ -78,4 +81,29 @@ footer{
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     margin: 35px 0;
+}
+@media (max-width: 400px){
+    .sub-page-header{
+        font-size: 1rem;
+    }
+    .soon-page-header{ 
+        font-size: 40px;
+    }
+    footer{
+        font-size: 12px;
+    }
+    .box{
+        width: 160px;
+        height: 150px;
+        margin: 0;
+        margin-bottom: 4rem;
+    }
+}
+@media (max-width: 1000px){
+    .box{
+        width: 160px;
+        height: 150px;
+        margin: 0;
+        margin-bottom: 4rem;
+    }
 }
